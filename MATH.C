@@ -5,47 +5,47 @@
 int main()
 {
     char unit;
-    int num1;
-    int num2;
-    int result;
+    double num1;
+    double num2;
+    double result;
 
-    printf("Enter mode of Operator (+ - * / ) \n");
+    printf("Enter Mode of Operator (+ - * / ) \n");
     scanf("%c", &unit);
     switch(unit)
     {
     case '+':
         printf("Enter num1 : \n");
-        scanf("%d", &num1);
+        scanf("%lf", &num1);
         printf("Enter num2 : \n");
-        scanf("%d", &num2);
+        scanf("%lf", &num2);
         result = num1 + num2;
-        printf("%d", result);
+        printf("%lf \n", result);
         break;
     case '-':
         printf("Enter num1 : \n");
-        scanf("%d", &num1);
+        scanf("%lf", &num1);
         printf("Enter num2 : \n");
-        scanf("%d", &num2);
+        scanf("%lf", &num2);
         result = num1 - num2;
-        printf("%d", result);
+        printf("%.lf \n", result);
 
         break;
     case '/':
         printf("Enter num1 : \n");
-        scanf("%d", &num1);
+        scanf("%lf", &num1);
         printf("Enter num2 : \n");
-        scanf("%d", &num2);
+        scanf("%lf", &num2);
         result = num1 / num2;
-        printf("%d", result);
+        printf("%lf \n", result);
 
         break;
     case '*':
         printf("Enter num1 : \n");
-        scanf("%d", &num1);
+        scanf("%lf", &num1);
         printf("Enter num2 : \n");
-        scanf("%d", &num2);
+        scanf("%lf", &num2);
         result = num1 * num2;
-        printf("%d", result);
+        printf("%lf \n", result);
 
         break;
 
